@@ -1,0 +1,48 @@
+.ImgPres-cont{
+    img{
+        width: 100%;
+        height: 260px;
+        object-fit: cover;
+    }
+}
+.menu{
+    position: relative;
+    bottom: 40px;
+    z-index: 1;
+    background-color: #F6F6F6;
+    border-radius: 40px;
+    &-title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        i{
+            font-size: 28px;
+        }
+    }
+    &__card{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0;
+        padding: 10px 15px;
+        background-color: white;
+        border-radius: 15px;
+
+        &-description{
+            display: flex;
+            flex-direction: column;
+        }
+        &-price{
+            
+        }
+    }
+}
+
+.card-title{
+    width: 40px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: $color-tertiary 4px solid;
+}
