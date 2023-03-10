@@ -2,6 +2,13 @@ footer{
     background-color: $footer-color;
     display: flex;
     flex-direction: column;
+    @media (min-width: 767.98px){
+        div{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: flex-start;
+        }
+    }
 
     a, h3, p{
         color: white;
@@ -10,16 +17,28 @@ footer{
     }
     a{
         margin: 5px 0;
+        @media (min-width: 767.98px){
+            margin: 0 20px;
+        }
     }
     h3{
         margin: 10px 0;
         font-size: 22px;
+        @media (min-width: 767.98px){
+            margin: 0 30px;
+        }
     }
     i{
         margin-right: 4px;
         font-size: 12px;
+        @media (min-width: 767.98px){
+            margin: 0 5px;
+        }
     }
     .fa-utensils{
         margin-right: 8px;
+        @media (min-width: 767.98px){
+            margin: 0 5px;
+        }
     }
 }
