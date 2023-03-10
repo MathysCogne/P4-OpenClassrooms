@@ -5,73 +5,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oh My Food !</title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./sass/main.css">
 </head>
 
 <body>
-    <div class="main-container">
-
 <!--//////////// NAVIGATION - HEADER \\\\\\\\\\\\-->
-        <header>
-            <img href="#" src="images/logo/ohmyfood@2x.svg" alt="Logo de Oh My Food">
-            <nav>
-                <i class="fa-solid fa-location-dot"></i>
-                <a href="#">Paris, Belleville</a>
-            </nav>
-        </header>
-
+    <header>
+        <div class="logo-cont">
+            <img class="logo-header" href="#" src="images/logo/ohmyfood@2x.svg" alt="Logo de Oh My Food">
+        </div>
+        <nav>
+            <i class="fa-solid fa-location-dot"></i>
+            <a class="font-weight" href="#">Paris, Belleville</a>
+        </nav>
+    </header>
 <!--//////////// MAIN \\\\\\\\\\\\-->
-        <main>
-            <section>
-                <h1>Réservez le menu qui vous convient</h1>
-                <h3>Découvrez des restaurants d’exception, sélectionnés par nos soins.</h3>
-                <a href="#">Explorer nos restaurants</a>
-            </section>
+    <main>
+        <section class="presentation">
+            <h1>Réservez le menu qui vous convient</h1>
+            <h3>Découvrez des restaurants d’exception, sélectionnés par nos soins.</h3>
+            <a href="#" class="btn-primary">Explorer nos restaurants</a>
+        </section>
 
-            <section>
-                <h2>Fonctionnement</h2>
-                <a href="">
-                    <p>1</p>
-                    <i class="fa-solid fa-mobile-screen-button"></i>
-                    <p>Choisissez un restaurant</p>
-                </a>
-                <a href="">
-                    <p>2</p>
-                    <i class="fa-solid fa-list"></i>
-                    <p>Composez votre menu</p>
-                </a>
-                <a href="">
-                    <p>3</p>
-                    <i class="fa-solid fa-store"></i>
-                    <p>Dégustez au restaurant</p>
-                </a>
-            </section>
+        <section>
+            <h2>Fonctionnement</h2>
+            <a href="">
+                <p>1</p>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <p>Choisissez un restaurant</p>
+            </a>
+            <a href="">
+                <p>2</p>
+                <i class="fa-solid fa-list"></i>
+                <p>Composez votre menu</p>
+            </a>
+            <a href="">
+                <p>3</p>
+                <i class="fa-solid fa-store"></i>
+                <p>Dégustez au restaurant</p>
+            </a>
+        </section>
 
-            <section>
-                <h2>Restaurant</h2>
-                <article>
+        <section>
+            <h2>Restaurant</h2>
+            <article>
+                <div>
+                    <img src="" alt=""> 
+                    <p>Nouveau</p>
+                </div>
+                <div>
                     <div>
-                        <img src="" alt=""> 
-                        <p>Nouveau</p>
+                        <h3></h3>
+                        <h4></h4>
                     </div>
                     <div>
-                        <div>
-                            <h3></h3>
-                            <h4></h4>
-                        </div>
-                        <div>
-                            <i class="fa-regular fa-heart"></i>
-                        </div>
+                        <i class="fa-regular fa-heart"></i>
                     </div>
-                </article>
+                </div>
+            </article>
 
 
-            </section>
-        </main>
-    </div>
+        </section>
+    </main>
     
 <!--////////////  FOOTER  \\\\\\\\\\\\-->
     <footer>

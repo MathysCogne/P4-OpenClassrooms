@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+}
+
+.main-container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.font-roboto, a, p, h4, h3, h2, h1 {
+  font-family: "Roboto", sans-serif;
+  margin: 5px 0;
+}
+
+h1 {
+  font-size: 40px;
+}
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+h4 {
+  font-size: 17px;
+}
+
+a, p {
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.font-logo-rest {
+  font-family: "Shrikhand", cursive;
+}
+
+.font-weight {
+  font-weight: 600;
+}
+
+.btn-primary {
+  color: white;
+  padding: 14px 18px 14px 18px;
+  margin: 20px;
+  border-radius: 60px;
+  background: linear-gradient(to left, #9356DC, #FF79DA);
+}
+
+.logo-cont {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.logo-header {
+  height: 36px;
+}
+
+nav {
+  padding: 15px;
+  background-color: #EAEAEA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav i {
+  margin-right: 17px;
+}
+nav a {
+  margin-right: 34px;
+}
+
+main .presentation {
+  background: #F6F6F6;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px;
+}/*# sourceMappingURL=main.css.map */

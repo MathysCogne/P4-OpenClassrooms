@@ -1,0 +1,39 @@
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
+    margin: 5px 0;
+}
+
+
+h1{
+    font-size: 40px;
+    @extend .font-roboto;
+    @media (max-width: 767.98px){
+        font-size: 24px;
+    }
+}
+h2{
+    font-size: 24px;
+    @extend .font-roboto;
+}
+h3{
+    font-size: 18px;
+    font-weight: 100;
+    @extend .font-roboto;
+}
+h4{
+    font-size: 17px;
+    @extend .font-roboto;
+}
+a, p{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    @extend .font-roboto;
+}
+
+.font-logo-rest{
+    font-family: 'Shrikhand', cursive;
+}
+.font-weight{
+    font-weight: 600;
+}

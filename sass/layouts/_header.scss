@@ -1,0 +1,23 @@
+.logo-cont{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.logo-header{
+    height: 36px;
+}
+nav{
+    padding: 15px;
+
+    background-color: $background-second-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i{
+        margin-right: 17px;
+    }
+    a{
+        margin-right: 34px;
+    }
+}

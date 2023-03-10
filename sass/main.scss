@@ -1,14 +1,12 @@
-@import "./utils/variables";
+@import "./utils/variables.scss";
 
-@import "./base/base";
-@import "./base/typography";
+@import "./base/base.scss";
+@import "./base/typography.scss";
 
-@import "./components/buttons";
+@import "./components/buttons.scss";
 
-@import "./layouts/header";
-@import "./layouts/nav";
-@import "./layouts/container";
-@import "./layouts/form";
+@import "./layouts/header.scss";
+@import "./layouts/footer.scss";
 
-@import "./pages/homepage";
-@import "./pages/menu";
+@import "./pages/homepage.scss";
+@import "./pages/menu.scss";
