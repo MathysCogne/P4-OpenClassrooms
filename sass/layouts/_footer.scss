@@ -1,0 +1,25 @@
+footer{
+    background-color: $footer-color;
+    display: flex;
+    flex-direction: column;
+
+    a, h3, p{
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+    a{
+        margin: 5px 0;
+    }
+    h3{
+        margin: 10px 0;
+        font-size: 22px;
+    }
+    i{
+        margin-right: 4px;
+        font-size: 12px;
+    }
+    .fa-utensils{
+        margin-right: 8px;
+    }
+}

@@ -37,6 +37,7 @@ h3 {
 
 h4 {
   font-size: 17px;
+  font-weight: 100;
 }
 
 a, p {
@@ -100,6 +101,44 @@ a, p {
   color: #9356DC;
 }
 
+.CardRestaurant {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+}
+.CardRestaurant_img {
+  display: flex;
+}
+.CardRestaurant_img p {
+  z-index: 1;
+  position: absolute;
+  right: 40px;
+  background-color: #99E2D0;
+  color: #008766;
+  margin-top: 15px;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.CardRestaurant_img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 175px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+.CardRestaurant_description {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.CardRestaurant_description-icon {
+  font-size: 30px;
+}
+
 .logo-cont {
   display: flex;
   justify-content: center;
@@ -122,6 +161,31 @@ nav i {
 }
 nav a {
   margin-right: 34px;
+}
+
+footer {
+  background-color: #353535;
+  display: flex;
+  flex-direction: column;
+}
+footer a, footer h3, footer p {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+footer a {
+  margin: 5px 0;
+}
+footer h3 {
+  margin: 10px 0;
+  font-size: 22px;
+}
+footer i {
+  margin-right: 4px;
+  font-size: 12px;
+}
+footer .fa-utensils {
+  margin-right: 8px;
 }
 
 .presentation {
