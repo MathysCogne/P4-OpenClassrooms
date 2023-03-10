@@ -2,6 +2,7 @@ $color-primary: #9356DC;
 $color-second: #FF79DA;
 $color-tertiary: #99E2D0;
 
+$color-primary-btn: #F5EDFF;
 $color-tertiary-font: #008766;
 
 $icon-color: #7E7E7E;
@@ -11,4 +12,4 @@ $background-second-color: #EAEAEA;
 
 $footer-color: #353535;
 
-$gradint-btn: linear-gradient(to left, #9356DC, #FF79DA);
+$gradint-btn: linear-gradient(to left, $color-primary, $color-second);

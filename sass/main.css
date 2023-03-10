@@ -3,8 +3,13 @@ body {
 }
 
 .main-container {
-  margin-left: 20px;
-  margin-right: 20px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-section {
+  margin: 20px 0;
 }
 
 .font-roboto, a, p, h4, h3, h2, h1 {
@@ -56,6 +61,45 @@ a, p {
   background: linear-gradient(to left, #9356DC, #FF79DA);
 }
 
+.btn-second {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  margin: 10px 0px;
+  border-radius: 25px;
+  margin-left: 5px;
+  background: #F6F6F6;
+}
+.btn-second-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+  background-color: #9356DC;
+  border-radius: 50%;
+  margin-left: -11px;
+}
+.btn-second-icon {
+  padding: 0 30px;
+  color: #7E7E7E;
+}
+.btn-second-icon:hover {
+  color: #9356DC;
+}
+.btn-second-txt {
+  padding: 0 20px;
+}
+.btn-second:hover {
+  background: #F5EDFF;
+}
+.btn-second:hover .btn-second-icon {
+  color: #9356DC;
+}
+
 .logo-cont {
   display: flex;
   justify-content: center;
@@ -80,11 +124,12 @@ nav a {
   margin-right: 34px;
 }
 
-main .presentation {
+.presentation {
   background: #F6F6F6;
   text-align: center;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  padding: 50px 0px;
+}
+
+.restaurant {
+  background: #F6F6F6;
 }/*# sourceMappingURL=main.css.map */
