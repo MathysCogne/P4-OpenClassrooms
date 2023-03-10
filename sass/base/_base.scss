@@ -5,6 +5,10 @@ body {
     padding: 30px 20px;
     display: flex;
     flex-direction: column;
+    @media (min-width: 767.98px){
+        padding: 50px 15%;
+        margin: auto;
+    }
 }
 .menu-container{
     padding: 0 20px;

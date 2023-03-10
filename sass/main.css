@@ -7,6 +7,12 @@ body {
   display: flex;
   flex-direction: column;
 }
+@media (min-width: 767.98px) {
+  .main-container {
+    padding: 50px 15%;
+    margin: auto;
+  }
+}
 
 .menu-container {
   padding: 0 20px;
@@ -24,11 +30,11 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 24px;
 }
-@media (max-width: 767.98px) {
+@media (min-width: 767.98px) {
   h1 {
-    font-size: 24px;
+    font-size: 42px;
   }
 }
 
@@ -129,6 +135,11 @@ a, p {
   padding: 5px 15px;
   border-radius: 5px;
 }
+@media (min-width: 767.98px) {
+  .CardRestaurant_img p {
+    position: absolute;
+  }
+}
 .CardRestaurant_img img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -146,6 +157,12 @@ a, p {
 }
 .CardRestaurant_description-icon {
   font-size: 30px;
+}
+@media (min-width: 767.98px) {
+  .CardRestaurant {
+    width: 30%;
+    margin-left: 20px;
+  }
 }
 
 .menu__btn {
@@ -215,8 +232,21 @@ footer .fa-utensils {
   padding: 70px 0;
 }
 
+@media (min-width: 767.98px) {
+  .fonctionnement div {
+    display: flex;
+  }
+}
+
 .restaurant {
   background: #F6F6F6;
+}
+
+@media (min-width: 767.98px) {
+  .resp-destop {
+    display: inline-flex;
+    flex-direction: row;
+  }
 }
 
 .ImgPres-cont img {

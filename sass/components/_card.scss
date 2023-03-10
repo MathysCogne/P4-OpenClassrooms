@@ -13,6 +13,9 @@
             margin-top: 15px;
             padding: 5px 15px;
             border-radius: 5px;
+            @media (min-width: 767.98px){
+                position: absolute;
+            }
         }
         img{
             object-fit: cover;
@@ -38,6 +41,10 @@
         &-icon{
             font-size: 30px;
         }
+    }
+    @media (min-width: 767.98px){
+        width: 30%;
+        margin-left: 20px;
     }
 }
 .menu__btn{

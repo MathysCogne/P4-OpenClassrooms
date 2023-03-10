@@ -6,9 +6,19 @@
 }
 
 .fonctionnement{
-    // flex-direction: row;
+    @media (min-width: 767.98px){
+        div{
+            display: flex;
+        }
+    }
 }
 
 .restaurant{
     background: $background-color;
+}
+.resp-destop{
+    @media (min-width: 767.98px){
+        display: inline-flex;
+        flex-direction: row;
+    }
 }
