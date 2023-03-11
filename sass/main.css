@@ -218,7 +218,7 @@ footer a, footer h3, footer p {
   align-items: center;
 }
 footer a {
-  margin: 5px 0;
+  margin: 12px 0;
 }
 @media (min-width: 767.98px) {
   footer a {
@@ -226,7 +226,7 @@ footer a {
   }
 }
 footer h3 {
-  margin: 10px 0;
+  margin: 15px 0;
   font-size: 22px;
 }
 @media (min-width: 767.98px) {
@@ -235,7 +235,7 @@ footer h3 {
   }
 }
 footer i {
-  margin-right: 4px;
+  margin-right: 3px;
   font-size: 12px;
 }
 @media (min-width: 767.98px) {
@@ -244,7 +244,7 @@ footer i {
   }
 }
 footer .fa-utensils {
-  margin-right: 8px;
+  margin-right: 7px;
 }
 @media (min-width: 767.98px) {
   footer .fa-utensils {
