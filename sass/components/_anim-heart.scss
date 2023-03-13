@@ -1,0 +1,28 @@
+.anim-heart{
+    display: inline-flex;
+    .fa-solid{
+        font-size: 30px;
+        background:-webkit-linear-gradient(top, #9356DC, #FF79DA);
+        background-clip:text;
+        -webkit-background-clip:text;
+        color:transparent;
+        position: absolute;
+        z-index: 1;
+        transition: all 400ms ease-out;
+        opacity: 0;
+    }
+    .fa-regular{
+        position: relative;
+        z-index: 2;
+        font-size: 30px;
+        opacity: 1;
+        transition: all 400ms ease-out;
+        &:hover{
+            opacity: 0;
+            +.fa-solid{
+                opacity: 1;
+            }
+        }
+    
+    }
+}

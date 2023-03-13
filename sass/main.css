@@ -170,6 +170,34 @@ a, p {
   margin: 50px 0px;
 }
 
+.anim-heart {
+  display: inline-flex;
+}
+.anim-heart .fa-solid {
+  font-size: 30px;
+  background: -webkit-linear-gradient(top, #9356DC, #FF79DA);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  position: absolute;
+  z-index: 1;
+  transition: all 400ms ease-out;
+  opacity: 0;
+}
+.anim-heart .fa-regular {
+  position: relative;
+  z-index: 2;
+  font-size: 30px;
+  opacity: 1;
+  transition: all 400ms ease-out;
+}
+.anim-heart .fa-regular:hover {
+  opacity: 0;
+}
+.anim-heart .fa-regular:hover + .fa-solid {
+  opacity: 1;
+}
+
 .logo-cont {
   display: flex;
   justify-content: center;
