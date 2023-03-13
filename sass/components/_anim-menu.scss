@@ -68,3 +68,41 @@
     font-size: 24px;
     color: white;
 }
+
+.starter{
+    animation: loader_menu-starter 1000ms;
+}
+.dish{
+    animation: loader_menu-dish 1500ms;
+}
+.dessert{
+    animation: loader_menu-dessert 2000ms;
+}
+
+@keyframes loader_menu-starter{
+    0% {
+        transform: translateX(2000px);
+        animation-timing-function: cubic-bezier(.12,.15,0,1);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+@keyframes loader_menu-dish{
+    0%, 25% {
+        transform: translateX(2000px);
+        animation-timing-function: cubic-bezier(.12,.15,0,1);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+@keyframes loader_menu-dessert{
+    0%, 50% {
+        transform: translateX(2000px);
+        animation-timing-function: cubic-bezier(.12,.15,0,1);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}

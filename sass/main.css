@@ -14,8 +14,8 @@ body {
   }
 }
 
-.menu-container {
-  padding: 0 20px;
+.menu_container {
+  padding: 5px 20px;
   display: flex;
   flex-direction: column;
 }
@@ -76,6 +76,12 @@ a, p {
   margin: 20px;
   border-radius: 60px;
   background: linear-gradient(to left, #9356DC, #FF79DA);
+  transition: all 330ms ease-in-out;
+}
+.btn-primary:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
 }
 
 .btn-second {
@@ -83,7 +89,7 @@ a, p {
   display: flex;
   align-items: center;
   padding: 20px 0;
-  margin: 10px 0px;
+  margin: 20px 0px;
   border-radius: 25px;
   margin-left: 5px;
   background: #F6F6F6;
@@ -95,7 +101,6 @@ a, p {
   color: white;
   width: 30px;
   height: 30px;
-  z-index: 1;
   background-color: #9356DC;
   border-radius: 50%;
   margin-left: -11px;
@@ -115,6 +120,11 @@ a, p {
 }
 .btn-second:hover .btn-second-icon {
   color: #9356DC;
+}
+
+.menu__btn {
+  text-align: center;
+  margin: 50px 0px;
 }
 
 .CardRestaurant {
@@ -163,11 +173,6 @@ a, p {
     width: 40%;
     margin-left: 20px;
   }
-}
-
-.menu__btn {
-  text-align: center;
-  margin: 50px 0px;
 }
 
 .anim-heart {
@@ -260,6 +265,45 @@ a, p {
   color: white;
 }
 
+.starter {
+  animation: loader_menu-starter 1000ms;
+}
+
+.dish {
+  animation: loader_menu-dish 1500ms;
+}
+
+.dessert {
+  animation: loader_menu-dessert 2000ms;
+}
+
+@keyframes loader_menu-starter {
+  0% {
+    transform: translateX(2000px);
+    animation-timing-function: cubic-bezier(0.12, 0.15, 0, 1);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes loader_menu-dish {
+  0%, 25% {
+    transform: translateX(2000px);
+    animation-timing-function: cubic-bezier(0.12, 0.15, 0, 1);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes loader_menu-dessert {
+  0%, 50% {
+    transform: translateX(2000px);
+    animation-timing-function: cubic-bezier(0.12, 0.15, 0, 1);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
 .__cont {
   animation: loaderbackg 3.3s;
 }
@@ -274,6 +318,7 @@ a, p {
   left: 50%;
   bottom: 50%;
   right: 50%;
+  z-index: -1;
 }
 .loader__anim {
   width: 272px;
@@ -437,6 +482,7 @@ footer .fa-utensils {
   position: relative;
   z-index: 1;
   margin-top: -40px;
+  padding-bottom: 40px;
   background-color: #F6F6F6;
   border-radius: 40px 40px 0 0;
 }
