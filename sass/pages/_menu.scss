@@ -38,16 +38,27 @@
         justify-content: space-between;
         align-items: center;
         margin: 10px 0;
-        padding: 10px 15px;
         background-color: white;
         border-radius: 15px;
 
         &-description{
+            padding: 10px 15px;
             display: flex;
             flex-direction: column;
+            white-space: nowrap;
+            overflow: hidden;
+            p{
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
         }
         &-price{
-            
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            p{
+                padding: 0 15px;
+            }
         }
 
     }

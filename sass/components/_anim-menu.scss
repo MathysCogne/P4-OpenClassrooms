@@ -1,0 +1,70 @@
+.menu__card:hover{
+    .cont-animmenu{
+        animation: add_checkout 500ms;
+        animation-fill-mode: forwards;
+    }
+    i{
+        animation: add_checkout-icn 750ms 250ms;
+        animation-fill-mode: forwards;
+    }
+    .menu__card-price p{
+        animation: add_checkout-price 500ms;
+        animation-fill-mode: forwards;
+    }
+}
+
+
+@keyframes add_checkout{
+    0% {
+        transform: translateX(40px);
+    }
+    50%,100% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    }
+
+@keyframes add_checkout-icn{
+    0% {
+        transform:rotateY(0deg)
+    }
+    100% {
+        transform:rotateY(360deg);
+    }
+}
+
+
+@keyframes add_checkout-price{
+    0% {
+        transform: translateX(0px);
+    }
+    90%,100% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-50px);
+        opacity: 1;
+            
+    }
+}
+
+
+.cont-animmenu{
+    position: absolute;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-tertiary;
+    border-radius: 0 15px 15px 0;
+    width: 55px;
+    height: 80px;
+}
+
+.fa-circle-check{
+    font-size: 24px;
+    color: white;
+}
