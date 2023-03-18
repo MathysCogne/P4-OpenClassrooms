@@ -1,5 +1,5 @@
 .__cont{
-    // animation: loaderbackg 3.3s;
+    animation: loaderbackg 3.3s;
 }
 
 .loader{
@@ -18,7 +18,7 @@
     &__anim{
         width: 272px;
         height: 272px;
-        // animation: loader 2.9s 100ms;
+        animation: loader 2.9s 100ms;
         opacity: 0;
     }
 }

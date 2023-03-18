@@ -256,7 +256,7 @@ a, p {
   align-items: center;
   background-color: #99E2D0;
   border-radius: 0 15px 15px 0;
-  width: 55px;
+  width: 65px;
   height: 80px;
 }
 
@@ -304,6 +304,10 @@ a, p {
     transform: translateX(0px);
   }
 }
+.__cont {
+  animation: loaderbackg 3.3s;
+}
+
 .loader__cont {
   position: sticky;
   display: flex;
@@ -319,6 +323,7 @@ a, p {
 .loader__anim {
   width: 272px;
   height: 272px;
+  animation: loader 2.9s 100ms;
   opacity: 0;
 }
 
