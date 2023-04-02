@@ -207,17 +207,17 @@ a, p {
   opacity: 1;
 }
 
-.menu__card:hover .cont-animmenu {
-  animation: add_checkout 500ms;
-  animation-fill-mode: forwards;
+.menu__card:focus .cont-animmenu {
+  animation: add_checkout 500ms alternate;
+  animation-fill-mode: both;
 }
-.menu__card:hover i {
-  animation: add_checkout-icn 750ms 250ms;
-  animation-fill-mode: forwards;
+.menu__card:focus i {
+  animation: add_checkout-icn 750ms 250ms alternate;
+  animation-fill-mode: both;
 }
-.menu__card:hover .menu__card-price p {
-  animation: add_checkout-price 500ms;
-  animation-fill-mode: forwards;
+.menu__card:focus .menu__card-price p {
+  animation: add_checkout-price 500ms alternate;
+  animation-fill-mode: both;
 }
 
 @keyframes add_checkout {

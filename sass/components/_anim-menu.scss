@@ -1,15 +1,15 @@
-.menu__card:hover{
+.menu__card:focus{
     .cont-animmenu{
-        animation: add_checkout 500ms;
-        animation-fill-mode: forwards;
+        animation: add_checkout 500ms alternate;
+        animation-fill-mode: both;
     }
     i{
-        animation: add_checkout-icn 750ms 250ms;
-        animation-fill-mode: forwards;
+        animation: add_checkout-icn 750ms 250ms alternate;
+        animation-fill-mode: both;
     }
     .menu__card-price p{
-        animation: add_checkout-price 500ms;
-        animation-fill-mode: forwards;
+        animation: add_checkout-price 500ms alternate;
+        animation-fill-mode: both;
     }
 }
 
