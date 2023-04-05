@@ -2,7 +2,7 @@ footer{
     background-color: $footer-color;
     display: flex;
     flex-direction: column;
-    @media (min-width: 767.98px){
+    @media (min-width: 1468px){
         div{
             display: flex;
             flex-direction: row-reverse;
@@ -17,27 +17,27 @@ footer{
     }
     a{
         margin: 12px 0;
-        @media (min-width: 767.98px){
+        @media (min-width: 1468px){
             margin: 0 20px;
         }
     }
     h3{
         margin: 15px 0;
         font-size: 22px;
-        @media (min-width: 767.98px){
+        @media (min-width: 1468px){
             margin: 0 30px;
         }
     }
     i{
         margin-right: 3px;
         font-size: 12px;
-        @media (min-width: 767.98px){
+        @media (min-width: 1468px){
             margin: 0 5px;
         }
     }
     .fa-utensils{
         margin-right: 7px;
-        @media (min-width: 767.98px){
+        @media (min-width: 1468px){
             margin: 0 5px;
         }
     }

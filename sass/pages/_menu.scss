@@ -3,7 +3,7 @@
         width: 100%;
         height: 260px;
         object-fit: cover;
-        @media (min-width: 767.98px){
+        @media (min-width: 1468px){
             height: 500px;
         }
     }
@@ -15,7 +15,7 @@
     padding-bottom: 40px;
     background-color: #F6F6F6;
     border-radius: 40px 40px 0 0;
-    @media (min-width: 767.98px){
+    @media (min-width: 1468px){
         margin: -80px 15% 0 15%;
         padding: 10px 15% 50px 15%;
     }
@@ -24,12 +24,12 @@
         justify-content: space-between;
         align-items: center;
         padding: 20px;
-        @media (min-width: 767.98px){
+        @media (min-width: 1468px){
             justify-content: center;
         }
         i{
             font-size: 28px;
-            @media (min-width: 767.98px){
+            @media (min-width: 1468px){
                 margin-left: 30px;
             }
         }

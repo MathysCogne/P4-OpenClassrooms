@@ -6,7 +6,7 @@
 }
 
 .fonctionnement{
-    @media (min-width: 767.98px){
+    @media (min-width: 1468px){
         div{
             display: flex;
         }
@@ -20,7 +20,7 @@
     background: $background-color;
 }
 .resp-destop{
-    @media (min-width: 767.98px){
+    @media (min-width: 1468px){
         display: inline-flex;
         flex-direction: row;
     }

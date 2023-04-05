@@ -7,7 +7,7 @@
 h1{
     font-size: 24px;
     @extend .font-roboto;
-    @media (min-width: 767.98px){
+    @media (min-width: 1468px){
         font-size: 42px;
     }
 }
